@@ -1,7 +1,7 @@
 # computer-training
 応用情報実習（A）の作業リポジトリです。シラバスは[こちら](https://syllabus.kyoto-su.ac.jp/syllabus/html/2024/3749.html)
 
-##　このリポジトリについて
+## このリポジトリについて
 ### ディレクトリ構造
 ```
 .
