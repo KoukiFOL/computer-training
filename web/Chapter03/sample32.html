@@ -7,18 +7,47 @@
     <style>
         body {
             background-color: ivory;
+            background-image: url(../images/gold_back.jpg);
+            /*初期状態はrepeat-x&repeat-yの両方*/
+            background-repeat: repeat-y;
+        }
+
+        #header {
+            background-color: bisque;
+
+        }
+
+        #contents {
+            background-color: antiquewhite;
+
+        }
+        h1 {
+            background-color: antiquewhite;
+            color: darkred;
+        }
+        h2 {
+            background-color: chocolate;
+            color: lightyellow;
+        }
+        h3{
+            color: brown;
         }
     </style>
 </head>
 
 <body>
-    <h1>マテリアルスイーツ</h1>
-    <p>季節のスイーツを使用した生菓子のお店です。</p>
-    <h2>ピックアップスイーツ</h2>
-    <p>今月のおすすめスイーツを紹介します。</p>
-    <h3>モンブラン</h3>
-    <p>今年採れた国内産の栗を使用したケーキです。</p>
-    <img src="./images/blanc1.jpg" alt="モンブランの写真" >
+    <div id="header">
+        <h1>マテリアルスイーツ</h1>
+        <p>季節のスイーツを使用した生菓子のお店です。</p>
+    </div>
+    <div id="contents">
+        <h2>ピックアップスイーツ</h2>
+        <p>今月のおすすめスイーツを紹介します。</p>
+        <h3>モンブラン</h3>
+        <p>今年採れた国内産の栗を使用したケーキです。</p>
+        <img src="./images/blanc1.jpg" alt="モンブランの写真">
+    </div>
+
 </body>
 
 </html>
