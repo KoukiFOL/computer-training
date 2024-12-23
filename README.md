@@ -23,5 +23,5 @@
 #### 30時間でマスター webデザイン
 [![教科書](./img/textbook.jpg)](https://www.jikkyo.co.jp/book/detail/20326025)
 
-[ここ](https://elib.maruzen.co.jp/elib/html/BookDetail/Id/3000089940?0)をクリックすると電子書籍をみることができます。（他の人が見てる時は見れないので注意）
+[ここ](https://elib.maruzen.co.jp/elib/html/BookDetail/Id/3000089940?0)をクリックすると電子書籍をみることができます。（他の人が見てる時は見れないので注意）月曜5限は僕が使うので開かないでくれると...
 

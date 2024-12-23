@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/*セミコロンを忘れない*/
+/*マテリアルスイーツCSS*/
+
+body {
+    font-family: "Yu Gothic", YuGothic, "MS Pゴシック", Meiryo;
+    /*スペースを入れないほうがいい？*/
+    font-size: 16px;
+    background-image: url(../images/gold_back.jpg);
+    /*"../"は1つ上の階層のディレクトリを指す*/
+    background-repeat: repeat-y;
+}
+
+/*リセットcss*/
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/*header css*/
+header {
+    background-color: bisque;
+    width: 980px;
+    color: brown;
+    overflow: hidden;
+    /*overflow :hidden;でfloatのバグを解消*/
+
+}
+
+#logo {
+    /*display: block;*/
+    /*入れる理由がわからない*/
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#head_meg {
+    margin-top: 20px;
+    margin-left: 70px;
+    float: left;
+}
+
+h1 {
+    font-size: 28px;
+    color: crimson;
+}
+
+/* ナビゲーションcss */
+nav {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    width: 160px;
+    height: 60px;
+    float: left;
+}
+
+nav a {
+    background-color: white;
+    /*a の領域を見やすくする*/
+    display: block;
+    /*aタグをインライン要素からブロック要素に*/
+    line-height: 60px;
+    /* nav liのheightと合わせることで真ん中に移動 */
+    text-align: center;
+    /*横を真ん中にする*/
+    color: darkred;
+    text-decoration: none;
+    /*aタグの文字色とタグを消す*/
+    background-image: url(../images/gold.png);
+
+}
+
+/*
+aタグの上にマウスポインターが乗った時の状態のスタイル
+このように特定の状態において処理されるものを疑似クラスという
+*/
+nav a:hover {
+    /*font-size: 12px;*/
+    color: crimson;
+    font-weight: bold;
+    /*太字にする*/
+    background-image: url(../images/silver.png); /*教科書の誤字に注意*/
+}
+/*左クリックしたときの表示（発展）*/
+/*
+nav a:active{
+    font-size: 20px;
+}
+*/
+
+/*メインコンテンツ css*/
+main {
+    background-color:antiquewhite ;
+    width: 960px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    
+}
+h2 {
+    background-image: url(../images/silver-h2.png);
+    width: 400px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 60px;
+    text-align: center;
+    color: darked;
+}
+h3{
+    width: 220px;
+    height: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 70px;
+    text-align: center;
+    color: darkred;
+    background-image:url(../images/frame.png) ;
+    float: left;
+
+}
+/*pの領域を確認するために背景色を変更*/
+/*
+p{
+    background-color: red;
+}
+*/
+.margin_p{
+    margin-top: 45px;
+    margin-left: 20px;
+    color: brown;
+    float: left;
+}
+
+#picup_img{
+    clear: both;/*floatの解除*/
+    margin-right: 20px;
+    float: left;
+}
+
+#picup_p {
+    width: 440px;
+    height: 280px;
+    padding: 10px;
+    margin-right:20px;
+    border-radius: 10px;/*要素の角をとるcss 指定したpx数は角の半径*/
+    background-color: burlywood;
+    float: left;
+}
